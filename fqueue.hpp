@@ -50,10 +50,10 @@ using namespace std;
 // tricky calculation of the size of the queue: everything done by the
 // compiler
 template<size_t N> struct calcSize {
-    enum { result = calcSize<N >> 1>::result << 1 };
+    enum { result = calcSize<(N >> 1)>::result << 1 };
 };
 
-struct calcSize<0> {
+template<> struct calcSize<0> {
     enum { result = 1 };
 };
 

@@ -2,6 +2,7 @@
 #define CODE_HPP
 
 #include <iostream>
+#include <cassert>
 using namespace std;
 
 /* 

@@ -3,10 +3,7 @@
 # $Id: Makefile,v 1.9 2002/03/09 15:30:20 martin Exp $
 
 CC      = g++      # compiler
-CCFLAGS = -O9 -fomit-frame-pointer -fforce-mem -fforce-addr \
-          -finline-functions -funroll-loops \
-          -mcpu=i686 -march=i686 -fstrict-aliasing \
-          -freduce-all-givs -fschedule-insns2 # compileflags
+CCFLAGS = -O3 -fomit-frame-pointer
 #CCFLAGS = -g  # compileflags
 LD      = g++  # linker
 
