@@ -1,0 +1,12 @@
+#!/bin/sh
+time pmars -b -r 2000 warriors/fixed.red   warriors/fixed.red
+time pmars -b -r 2000 warriors/jaguar.red  warriors/fixed.red
+time pmars -b -r 2000 warriors/jaguar.red  warriors/jaguar.red
+time pmars -b -r 2000 warriors/stalker.red warriors/fixed.red
+time pmars -b -r 2000 warriors/stalker.red warriors/jaguar.red
+time pmars -b -r 2000 warriors/stalker.red warriors/stalker.red
+time pmars -b -r 2000 warriors/npaper2.red warriors/fixed.red
+time pmars -b -r 2000 warriors/npaper2.red warriors/jaguar.red
+time pmars -b -r 2000 warriors/npaper2.red warriors/stalker.red
+time pmars -b -r 2000 warriors/npaper2.red warriors/npaper2.red
+

@@ -1,0 +1,15 @@
+                      pmars 0.9.2   qmars           
+   Fixed vs    Fixed    24.93       16.65   66.8%
+  Jaguar vs    Fixed    29.16       18.92   64.9%
+  Jaguar vs   Jaguar    43.21       27.47   63.6%
+ Stalker vs    Fixed    24.84       17.56   70.7%
+ Stalker vs   Jaguar    26.06       18.52   71.1%
+ Stalker vs  Stalker    21.12       15.40   72.9%
+nPaperII vs    Fixed    35.46       23.18   65.4%
+nPaperII vs   Jaguar    44.55       30.14   67.7%
+nPaperII vs  Stalker    30.33       20.48   67.5%
+nPaperII vs nPaperII    50.75       32.89   64.8%
+-------------------------------------------------
+Sum                    330.28      221.21   
+                       100%         67.0%
+

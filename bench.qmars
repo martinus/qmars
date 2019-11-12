@@ -1,0 +1,12 @@
+#!/bin/sh
+time ./qmars 2000 warriors/fixed.rc   warriors/fixed.rc
+time ./qmars 2000 warriors/jaguar.rc  warriors/fixed.rc
+time ./qmars 2000 warriors/jaguar.rc  warriors/jaguar.rc
+time ./qmars 2000 warriors/stalker.rc warriors/fixed.rc
+time ./qmars 2000 warriors/stalker.rc warriors/jaguar.rc
+time ./qmars 2000 warriors/stalker.rc warriors/stalker.rc
+time ./qmars 2000 warriors/npaper2.rc warriors/fixed.rc
+time ./qmars 2000 warriors/npaper2.rc warriors/jaguar.rc
+time ./qmars 2000 warriors/npaper2.rc warriors/stalker.rc
+time ./qmars 2000 warriors/npaper2.rc warriors/npaper2.rc
+
